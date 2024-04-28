@@ -26,7 +26,7 @@ Run the following command to publish config file,
 
     php artisan vendor:publish --tag=dark-theme-assets
 
-## Configure PWA
+## Configure Dark Mode On App
  Add following code in root blade file in header section.
 
     <!-- Dark Mode Toggle -->
