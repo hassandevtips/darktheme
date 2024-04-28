@@ -1,7 +1,6 @@
 
 # Dark Theme Toggle For Bootstrap
 A Simple Package to add dark mode toggle feature to Bootstrap 5x
-## You can follow this video tutorial as well for installation.
 
 ## Screenshots
 [<img src="https://i.snipboard.io/5EYe2L.jpg" width="250">](https://i.snipboard.io/5EYe2L.jpg)
