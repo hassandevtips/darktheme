@@ -5,7 +5,7 @@ namespace Hassandevtips\DarkTheme\Providers;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Foundation\Console\AboutCommand;
-
+use Hassandevtips\DarkTheme\View\Components\DarkModeToggle;
 
 class DarkThemeProvider extends ServiceProvider
 {
@@ -34,8 +34,13 @@ class DarkThemeProvider extends ServiceProvider
             __DIR__ . '/../resources/assets' => public_path('vendor/dark-theme/'),
         ], 'dark-theme-assets');
 
-        // Blade Component
+        // Blade Component Namespace Registration
         Blade::componentNamespace('Hassandevtips\\DarkTheme\\Views\\Components', 'darktheme');
+
+        // Custom Blade Directive - darkmodetoggle
+        Blade::directive('darkmodetoggle', function () {
+            return "<?php echo app('" . DarkModeToggle::class . "')->render(); ?>";
+        });
 
         // Commands
         AboutCommand::add('Bootstrap Dark Theme By Hassandevtips', fn () => ['Version' => '1.0.0']);
