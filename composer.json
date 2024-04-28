@@ -1,7 +1,7 @@
 {
     "name": "hassandevtips/darktheme",
     "description": "DarkTheme - A simple Laravel package to enable dark mode using Bootstrap 5.",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
