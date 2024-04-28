@@ -1,1 +1,11 @@
 /* Add The Custom Css To Dark Your Theme Here */
+nav .bi {
+    width: 1em;
+    height: 1em;
+}
+
+.bi {
+    display: inline-block;
+    vertical-align: -.125em;
+    fill: currentcolor;
+}
