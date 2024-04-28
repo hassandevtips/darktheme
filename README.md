@@ -31,6 +31,11 @@ Run the following command to publish config file,
 
     <!-- Dark Mode Toggle -->
     <x-darktheme::dark-mode-toggle />
+    
+Or Can Also Add A Blade Directive
+
+     <!-- Dark Mode Toggle -->
+     @darkmodetoggle
 
 
 ### License
