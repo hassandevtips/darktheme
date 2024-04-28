@@ -1,0 +1,24 @@
+{
+    "name": "hassandevtips/darktheme",
+    "description": "DarkTheme - A simple Laravel package to enable dark mode using Bootstrap 5.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hassandevtips",
+            "email": "frontendsoftec@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hassandevtips\\DarkTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hassandevtips\\DarkTheme\\Providers\\DarkThemeProvider"
+            ]
+        }
+    }
+}
